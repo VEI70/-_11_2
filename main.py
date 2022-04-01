@@ -29,5 +29,5 @@ def get_skills(skill):
     return render_template('skills.html', candidates=candidates, candidate_len=len(candidates), skill=skill)
 
 
-app.run(debug=True)
+app.run()
 
